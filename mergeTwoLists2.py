@@ -1,5 +1,7 @@
 #!/usr/bin/env python3.11
 
+
+
 def divideAndConquer(L:list)->list:
     end = len(L)
     m = end // 2
@@ -15,23 +17,12 @@ def divideAndConquer(L:list)->list:
         else:
             L.append(a)
             L.append(b)
-        return L
-    else:
-        return L
+    return L
 
 def mergeTwoLists(one,two):
     for i in two:
         one.append(i)
     return divideAndConquer(one)
-
-
-
-def recurrence(list1:list,list2:list):
-    def iterate(L):
-        if len(L) == 1:
-            return L
-        else:
-            iterate(L[-1:])
 
 def main():
     A, B = [], []
