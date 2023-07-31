@@ -30,7 +30,6 @@ def runningSum(nums):
         i += 1
     return nums
 
-
 def main():
     print(runningSum(runningSum(runningSum([1,1,1,1,1,1,1]))))
 
