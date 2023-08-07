@@ -1,6 +1,5 @@
 from array import array
 
-
 def mergeTwoLists(arr1:array('I'), arr2: array('I')) -> array('I'):
     l1, l2 = len(arr1), len(arr2)
     if l1 > l2:
