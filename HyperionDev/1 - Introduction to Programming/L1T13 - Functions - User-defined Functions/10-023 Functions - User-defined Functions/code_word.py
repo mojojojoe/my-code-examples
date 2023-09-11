@@ -18,7 +18,7 @@ codewords = {
 }
 
 # Now, we see a codeword given to us:
-codeword = "go"
+codeword = "ok"
 
 # We can handle it as follows:
 if codeword in codewords:
