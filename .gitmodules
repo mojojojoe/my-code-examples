@@ -1,8 +1,8 @@
 [submodule "HyperionDev"]
-           path = ./HyperionDev
+           path = ../HyperionDev-BR23070008959/
            url = git://github.com/mojojojoe/HyperionDev.git
 
 [submodule "CoGrammar"]
-           path = ./Co_grammar
+           path = ~/dev/my-dev/Co_grammar
            url = git://github.com/mojojojoe/code-review.git
 
