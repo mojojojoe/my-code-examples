@@ -1,3 +1,3 @@
 # myCodeExamples
-Examples of my coding. 
-Examples should have been completed when placed in this folder.
+Examples of the coding of Bruce R Graham. 
+
